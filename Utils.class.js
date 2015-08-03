@@ -34,7 +34,7 @@ Utils.prototype = {
         return false;
     },
     isString: function(str){
-        if(str.match(/^[a-zA-ZàáâãäåæÀÁÃÂÄÅÆçÇéèêëÉÊÈËîïíÎÏÍñÑóôòöðœÓÔÕÖÒŒúùûÚÛÙÜýÿÝŸþÞ\-\s\']+$/i) !== null) return true;
+        if(str.match(/^[a-zA-ZàáâãäåæÀÁÃÂÄÅÆßçÇéèêëÉÊÈËîïíÎÏÍñÑóôòöðœÓÔÕÖÒŒúùûüÚÛÙÜýÿÝŸþÞ\-\s\']+$/i) !== null) return true;
         return false;
     },
     isEmail: function(str){
